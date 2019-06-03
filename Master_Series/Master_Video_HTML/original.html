@@ -1,0 +1,67 @@
+
+<h1 id = "title">Yes</h1>
+<p id = "description">This is a survey form.</p>
+    
+<form id="survey-form">    
+  <label id="name-label" for = "name">Enter your NAME:</label>
+    <input type="text" id="name" pattern="[A-Za-z]{3}"
+       placeholder = "Name"  required><br>
+  
+  <label id="email-label" for = "email">ENTER your electronic mail adress:</label>
+    <input type="email" id="email"
+           placeholder = "Email" required><br>
+  <label id="number-label" for = "number">How SATISFIED are you with human governments
+   on a scale from 0-6?</label>  
+    <input type="number" id="number"
+         pattern="[^a-zA-Z]"placeholder = "Number"
+          min='0'
+          max='6'><br>
+  
+	<p id = "lifestyle"><b>Preferred Lifestyle</b></p>
+		<select id="dropdown">
+			<option>Free Will</option>
+			<option>Semi-free-will</option>
+			<option>Loving Enslavement</option>
+			<option>Stern Servitude</option>
+			<option>Apprenticeship in becoming a superior 
+			race in a million
+			years or less</option>
+
+</select>
+	
+	<br><br><p>Exactly How Arrogant Are You?</p>	
+		
+		<label>I want to make my own choices</label>
+			<input type="radio" name="arrogance" value="arrogant">
+		
+		<br><label>I will not serve my benevolent master
+		</label>
+			<input type="radio" name="arrogance" value="still arrogant">
+	
+<br><br><p>Why Do You Think You Deserve Freedom?</p>
+		<label>I was born in America.</label>
+			<input type="radio" name="free-will" value="naiive">
+		<br><label>I am conditioned to distrust 
+		authority because of inferior human rule
+		</label>
+			<input type="radio" name="free-will" 
+             value="open to persuasion">	
+			
+	<br><br><p>Will I Submit To My Benevolent Master?</p>	
+		
+		<br><label>Yes</label>
+				<input type = "checkbox" value="yes">
+		<br><label>Affirmative</label>
+				<input type = "checkbox" value="yes">
+			
+					
+
+<br><br><label>Write about your love for your benevolent master</label> 		
+<textarea id = "essay" rows="4" cols="50"></textarea> 
+
+
+<button type = "submit">you will submit</button>
+  
+</form>	    
+
+     

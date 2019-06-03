@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    </head>
+<body>
+    
+    <form id="survey-form">
+<!--I will prompt they user to provide with information that makes them individual but they are preceded by my LABELs, implying that their identity doesn't exist without me-->
+    <label id="name-label" for="name">Enter Your NAME:</label>
+    <input type="text" id="name" placeholder="Name" pattern="[A-Za-z]{3}"
+    required>
+    <br>
+    
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" placeholder="Name" required>
+    <br>
+<!--I allow them to express their opinion, but in a limited way. They are limited to an awkward limited number.-->
+    <label id="number-label" for="number">Number:</label>
+    <input type="number" id="number" placeholder="Name" min=0 max=6>
+    <br>
+    
+    <h3>Preferred Lifestyle</h3>
+    <br>
+<!--    Now in our simulation we want to create some sort of illusion of choice. But they can only SELECT the options fed to them by our Benevolent Master.    -->
+    <select>
+        <option>Free Will</option>
+        <option>Semi-Free Will</option>
+        <option>Semi-Free Will</option>
+        <option>Semi-Free Will</option>
+        <option>Semi-Free Will</option>
+        </select>
+    
+    <h3>Exactly How Arrogant Are You?</h3>
+<!--    Some humans still use radios, and these are useful for indoctrinization. When the Boomer presses a button on an old fashioned radio, the other pops back into it's origial position. There is no real choice they are all really the same button thus they are named the same.      -->
+    <label>What?</label>
+    <input type="radio" id="arrogance" placeholder="Name" name="arrogance">
+        
+     <label>Yes</label>
+    <input type="radio" id="arrogance" placeholder="Name" name="arrogance">    
+    <br>    
+<h3>Will I Submit?</h3>
+<!-- Now with a checkbox They can check any number of options not just one. But all the options are the same. I am inevitable.-->
+        <label>Yes:</label>
+        <input type="checkbox" value="gotem">
+      <label>Yes:</label>
+        <input type="checkbox" value="still gotem">
+<!--
+        Now that my students have been properly molded, I can allow them to creatively express their love for me. I will vibrate with pleasure as their praise echoes thoughout my COLumned cathedrals.
+        Every ROW will cry out in spiritual ecstasy.
+-->
+        <br><br><label>Blah blah</label><br>
+        <textarea id="essay" rows="4" cols="50"></textarea>
+    <input type="submit" value="you will submit">    
+    </form>
+    </body>
+</html>
